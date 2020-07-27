@@ -3,4 +3,16 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="color_maple_black_1">#1e1e1e</color>
+    <color name="color_maple_black_2">#333333</color>
+    <color name="color_maple_gray_1">#4b4744</color>
+    <color name="color_maple_gray_2">#625953</color>
+    <color name="color_maple_white_1">#ffffff</color>
+    <color name="color_maple_white_2">#f0f0f0</color>
+
+    <color name="color_maple_green">#c4e39c</color>
+    <color name="color_maple_red">#f59888</color>
+    <color name="color_maple_blue">#8fbcef</color>
+
 </resources>
