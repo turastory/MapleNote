@@ -3,6 +3,7 @@ import com.turastory.androidtoolbox.build.android.configureCommons
 import com.turastory.androidtoolbox.build.androidx
 import com.turastory.androidtoolbox.build.junit
 import com.turastory.androidtoolbox.build.kotlinJvm
+import com.turastory.maplenote.Version
 
 plugins {
     id("com.android.application")
@@ -10,7 +11,10 @@ plugins {
 }
 
 android {
-    configureCommons(1, "1.0")
+    configureCommons(
+        Version.generateVersionCode(),
+        Version.versionCodeFormatter(true)("0.1.0")
+    )
 
     defaultConfig {
         applicationId = "com.turastory.maplenote"
