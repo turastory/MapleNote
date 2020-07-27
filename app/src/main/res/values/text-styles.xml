@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TextAppearance.Header1">
+        <item name="android:textSize">@dimen/text_header_1</item>
+    </style>
+
+    <style name="TextAppearance.Header2">
+        <item name="android:textSize">@dimen/text_header_2</item>
+    </style>
+
+    <style name="TextAppearance.Header3">
+        <item name="android:textSize">@dimen/text_header_3</item>
+    </style>
+
+    <style name="TextAppearance.Body1">
+        <item name="android:textSize">@dimen/text_body_1</item>
+    </style>
+
+    <style name="TextAppearance.Body2">
+        <item name="android:textSize">@dimen/text_body_2</item>
+    </style>
+
+    <style name="TextAppearance.Body3">
+        <item name="android:textSize">@dimen/text_body_3</item>
+    </style>
+
+</resources>
