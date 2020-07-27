@@ -32,6 +32,8 @@ android {
 }
 
 dependencies {
+    implementation("com.turastory.androidtoolbox:base-app")
+
     implementation(kotlinJvm(CommonVersions.kotlin))
     implementation(androidx("core", "ktx", version = CommonVersions.core))
     implementation(androidx("appcompat", version = CommonVersions.appcompat))

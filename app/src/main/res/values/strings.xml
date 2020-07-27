@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Maple</string>
+    <string name="app_name">Maple Note</string>
+
+    <!-- Splash -->
+    <string name="splash_version">Version</string>
 </resources>
